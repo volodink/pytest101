@@ -3,7 +3,6 @@ from src.fact import fact
 from matplotlib import pyplot as plt
 
 def test_basic_eq0():
-
     assert fact(0) == 1
 
 def test_basic_eq1():
